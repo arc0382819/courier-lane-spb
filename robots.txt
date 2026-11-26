@@ -1,2 +1,21 @@
+# Поисковики не индексируют сайт (демо). Боты мессенджеров могут читать страницу для превью ссылки.
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: vkShare
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
 User-agent: *
 Disallow: /
